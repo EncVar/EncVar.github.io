@@ -17,6 +17,7 @@ div.menu {
     /* 负责在效果上添加噪点，可以营造出磨砂效果 */ 
     background-size: 90px;
     /*磨砂大小*/
+    font-family: SEGUIVAR;
 }
 
 p.icon {
@@ -27,6 +28,7 @@ p.icon {
     color: rgb(255, 255, 255);
     display: inline;
     font:bold;
+    font-family: SEGUIVAR;
 }
 
 p.title {
@@ -41,6 +43,7 @@ p.menu {
     text-align: center;
     margin-top: auto; 
     line-height: 50px;
+    font-family: SEGUIVAR;
 }
 
 body {
@@ -50,6 +53,7 @@ body {
     background-position: center;
     background-size: cover;
     margin: auto;
+    font-family: SEGUIVAR;
 }
 
 div.top {
@@ -71,4 +75,9 @@ div.top {
     /* 负责在效果上添加噪点，可以营造出磨砂效果 */ 
     background-size: 90px;
     /*磨砂大小*/
+    font-family: SEGUIVAR;
+}
+@font-face {
+    font-family: SEGUIVAR;
+    src: url('font/SEGUIVAR.eot');
 }
