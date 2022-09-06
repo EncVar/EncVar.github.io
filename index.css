@@ -20,15 +20,14 @@ div.menu {
     font-family: SEGUIVAR;
 }
 
-p.icon {
+img.icon {
     text-align: left; 
-    margin-top: auto; 
-    line-height: 50px; 
-    font-size: 30px; 
     color: rgb(255, 255, 255);
-    display: inline;
-    font:bold;
-    font-family: SEGUIVAR;
+    width: 70px;
+    height: 70px;
+    line-height: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
 }
 
 p.title {
