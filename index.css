@@ -17,6 +17,7 @@
     /* 负责在效果上添加噪点，可以营造出磨砂效果 */ 
     background-size: 90px;
     /*磨砂大小*/
+    font-family: SEGUIVAR;
 }
 .title {
     text-align: left; 
@@ -25,11 +26,13 @@
     font-size: 30px; 
     color: rgb(255, 255, 255);
     font:bold;
+    font-family: SEGUIVAR;
 }
 .menu {
     text-align: center;
     margin-top: auto; 
     line-height: 50px;
+    font-family: SEGUIVAR;
 }
 body {
     background-image:url("pictures/最美小镇.jpeg"); 
@@ -38,6 +41,7 @@ body {
     background-position: center;
     background-size: cover;
     margin: auto;
+    font-family: SEGUIVAR;
 }
 .top {
     width: 100%; 
@@ -58,4 +62,9 @@ body {
     /* 负责在效果上添加噪点，可以营造出磨砂效果 */ 
     background-size: 90px;
     /*磨砂大小*/
+    font-family: SEGUIVAR;
+}
+@font-face {
+    font-family: SEGUIVAR;
+    src: url('font/SEGUIVAR.eot');
 }
