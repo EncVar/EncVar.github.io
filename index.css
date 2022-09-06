@@ -1,14 +1,22 @@
-.top {
-    width: 100%; 
-    height:50px; 
-    background-color: rgb(0, 0, 0); 
-    margin-top: auto; filter: opacity(80%);
-}
 .menu {
     width: 100%; 
-    background-color:azure; 
-    height: 50px; 
-    filter: opacity(80%);
+    height:50px; 
+    background-color: rgb(255, 255, 255); 
+    margin-top: auto; 
+    filter: opacity(95%) ;
+    box-shadow: 0px 9px 20px #ffffff57;
+    backdrop-filter: 
+    /* 负责背景模糊 */
+    blur(10px)
+    /* 负责亮度，100 以下会变暗，以上会提亮 */
+    brightness(120%)
+    /* 负责颜色饱和度，可以减小来衬托前景，避免背景太鲜艳 */
+    saturate(80%);
+    /* 负责颜色叠加，一半白色、黑色或主题色，衬托前景 */
+    background-color: #ffffffd0;
+    /* 负责在效果上添加噪点，可以营造出磨砂效果 */ 
+    background-size: 90px;
+    /*磨砂大小*/
 }
 .title {
     text-align: left; 
@@ -31,7 +39,23 @@ body {
     background-size: cover;
     margin: auto;
 }
-@font-face {
-    font-family: 'SegoeUI';
-    src: url(./SEGUIVAR.TTF);
+.top {
+    width: 100%; 
+    height:100px; 
+    background-color: rgb(0, 0, 0); 
+    margin-top: auto; 
+    filter: opacity(95%) ;
+    box-shadow: 0px 9px 20px #00000057;
+    backdrop-filter: 
+    /* 负责背景模糊 */
+    blur(10px)
+    /* 负责亮度，100 以下会变暗，以上会提亮 */
+    brightness(120%)
+    /* 负责颜色饱和度，可以减小来衬托前景，避免背景太鲜艳 */
+    saturate(80%);
+    /* 负责颜色叠加，一半白色、黑色或主题色，衬托前景 */
+    background-color: #000000d0;
+    /* 负责在效果上添加噪点，可以营造出磨砂效果 */ 
+    background-size: 90px;
+    /*磨砂大小*/
 }
