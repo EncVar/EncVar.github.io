@@ -8,7 +8,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open Untitled-1.html",
-            "file": "d:\\桌面\\Untitled-1.html"
+            "file": "{path}\\Untitled-1.html"
         }
     ]
 }
