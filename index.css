@@ -7,7 +7,8 @@
     src: url('font/CASCADIACODE.TTF');
 }
 div.menu {
-    width: 100%; 
+    margin: auto;
+    width: 98%; 
     height:50px; 
     background-color: rgb(255, 255, 255); 
     margin-top: auto; 
@@ -25,6 +26,9 @@ div.menu {
     /* 负责在效果上添加噪点，可以营造出磨砂效果 */ 
     background-size: 90px;
     /*磨砂大小*/
+    border-radius: 10px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
 }
 
 p.menu{
@@ -65,10 +69,11 @@ body {
 }
 
 div.top {
-    width: 100%; 
+    margin: auto;
+    width: 98%; 
     height:100px; 
     background-color: rgb(0, 0, 0); 
-    margin-top: auto; 
+    margin-top: 1%; 
     filter: opacity(95%) ;
     box-shadow: 0px 9px 20px #00000057;
     backdrop-filter: 
@@ -83,6 +88,9 @@ div.top {
     /* 负责在效果上添加噪点，可以营造出磨砂效果 */ 
     background-size: 90px;
     /*磨砂大小*/
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
 }
 @font-face {
     font-family: 'SEGUIVAR';
