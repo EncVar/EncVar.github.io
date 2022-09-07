@@ -1,4 +1,4 @@
-div.menu {
+.menu {
     width: 100%; 
     height:50px; 
     background-color: rgb(255, 255, 255); 
@@ -20,7 +20,7 @@ div.menu {
     font-family: SEGUIVAR;
 }
 
-img.icon {
+.icon {
     text-align: left; 
     color: rgb(255, 255, 255);
     width: 70px;
@@ -30,7 +30,7 @@ img.icon {
     border-radius: 10px;
 }
 
-p.title {
+.title {
     text-align: center; 
     margin-top: auto; 
     line-height: 50px; 
@@ -38,7 +38,7 @@ p.title {
     color: rgb(255, 255, 255);
 }
 
-p.menu {
+.menu {
     text-align: center;
     margin-top: auto; 
     line-height: 50px;
@@ -55,7 +55,7 @@ body {
     font-family: SEGUIVAR;
 }
 
-div.top {
+.top {
     width: 100%; 
     height:100px; 
     background-color: rgb(0, 0, 0); 
@@ -77,6 +77,6 @@ div.top {
     font-family: SEGUIVAR;
 }
 @font-face {
-    font-family: SEGUIVAR;
-    src: url('font/SEGUIVAR.eot');
+    font-family: 'SEGUIVAR';
+    src: url('font/SEGUIVAR.svg');
 }
