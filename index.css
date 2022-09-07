@@ -28,7 +28,7 @@ img.icon{
     margin-top: 15px;
     margin-left: 15px;
     border-radius: 10px;
-    float: left;
+    float: left;/*使用浮动型来解决布局问题*/
 }
 
 .title {
@@ -48,11 +48,11 @@ img.icon{
 
 body {
     background-image:url("image/最美小镇.jpeg"); 
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position: center;
-    background-size: cover;
-    margin: auto;
+    background-repeat: no-repeat;/*背景重复（不重复）*/
+    background-attachment:fixed;/*背景随滚动更改（不更改）*/
+    background-position: center;/*设置图像中心位置*/
+    background-size: cover;/*背景大小：覆盖*/
+    margin: auto;/*body部分与页面间距（自动）*/
     font-family: SEGUIVAR;
 }
 
