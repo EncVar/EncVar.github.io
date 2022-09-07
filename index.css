@@ -1,3 +1,4 @@
+/*字体设定区域*/
 @font-face {
     font-family: 'SEGUIVAR';
     src: url('font/SEGUIVAR.TTF');
@@ -6,8 +7,25 @@
     font-family: 'Terminal';
     src: url('font/CASCADIACODE.TTF');
 }
+@font-face {
+    font-family: 'SEGUIVAR';
+    src: url('font/SEGUIVAR.TTF');
+}
+
+/*主体*/
+body {
+    background-image:url("image/最美小镇.jpeg"); 
+    background-repeat: no-repeat;/*背景重复（不重复）*/
+    background-attachment:fixed;/*背景随滚动更改（不更改）*/
+    background-position: center;/*设置图像中心位置*/
+    background-size: cover;/*背景大小：覆盖*/
+    margin: auto;/*body部分与页面间距（自动）*/
+    font: normal 100%; /*规定字体为总体页面大小的100%*/
+    font-family: SEGUIVAR;
+}
+
+/*块元素css设定区域*/
 div.menu {
-    margin: auto;
     width: 100%; 
     height:50px; 
     background-color: rgb(255, 255, 255); 
@@ -27,44 +45,6 @@ div.menu {
     background-size: 90px;
     /*磨砂大小*/
 }
-
-p.menu{
-    text-align: center; 
-    font-family: SEGUIVAR;
-    font-weight: bold;
-    margin-top: auto;
-    line-height: 50px;
-}
-
-img.icon{
-    text-align: left; 
-    color: rgb(255, 255, 255);
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    margin-left: 15px;
-    border-radius: 10px;
-    float: left;/*使用浮动型来解决布局问题*/
-}
-
-p.title {
-    text-align: center; 
-    margin-top: auto; 
-    line-height: 100px;
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-}
-
-body {
-    background-image:url("image/最美小镇.jpeg"); 
-    background-repeat: no-repeat;/*背景重复（不重复）*/
-    background-attachment:fixed;/*背景随滚动更改（不更改）*/
-    background-position: center;/*设置图像中心位置*/
-    background-size: cover;/*背景大小：覆盖*/
-    margin: auto;/*body部分与页面间距（自动）*/
-    font-family: SEGUIVAR;
-}
-
 div.top {
     margin: auto;
     width: 100%; 
@@ -85,7 +65,35 @@ div.top {
     background-size: 90px;
     /*磨砂大小*/
 }
-@font-face {
-    font-family: 'SEGUIVAR';
-    src: url('font/SEGUIVAR.TTF');
+
+/*图像元素css设定区域*/
+img.icon{
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    float: left;/*使用浮动型来解决布局问题*/
 }
+
+/*文本元素css设定区域*/
+p.menu{
+    text-align: center; 
+    font-family: SEGUIVAR;
+    font-weight: bold;
+    margin-top: auto;
+    line-height: 50px;
+    font-size: 1em;/*默认字体大小*/
+}
+p.title {
+    text-align: center; 
+    margin-top: auto; 
+    line-height: 100px;
+    font-size: 3.5em;/*默认字体大小的3.5times*/
+    color: rgb(255, 255, 255);
+}
+
+
+
+
