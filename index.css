@@ -18,6 +18,8 @@
     background-size: 90px;
     /*磨砂大小*/
     font-family: SEGUIVAR;
+    font-weight: bold;
+    text-align: center; 
 }
 
 .icon {
@@ -36,13 +38,6 @@
     line-height: 50px; 
     font-size: 30px; 
     color: rgb(255, 255, 255);
-}
-
-.menu {
-    text-align: center;
-    margin-top: auto; 
-    line-height: 50px;
-    font-family: SEGUIVAR;
 }
 
 body {
@@ -78,5 +73,5 @@ body {
 }
 @font-face {
     font-family: 'SEGUIVAR';
-    src: url('font/SEGUIVAR.svg');
+    src: url('font/SEGUIVAR.TTF');
 }
